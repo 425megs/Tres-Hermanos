@@ -29,7 +29,7 @@
     align-items: center;
     margin: auto;
     width: 1200px;
-    height: 500px;
+    height: 600px;
     padding-bottom: 50px;
 }
 
@@ -91,4 +91,23 @@
 
 .phone {
     display: block;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-image: linear-gradient(black, black);
+    background-size: 0 5px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+    padding: 3px;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-size: 100% 5px, auto;
 }
