@@ -82,13 +82,24 @@
     padding: 50px;
 }
 
-.menus {
-    display: flex;
-    justify-content: space-evenly;
+.pdfs {
+    display: block;
+    justify-content: center;
     align-items: center;
     margin: auto;
-    min-height: 600px;
-    min-width: 300px;
+}
+
+.menus {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+}
+
+.food {
+    height: 80vh;
+    width: auto;
 }
 
 .footer {
