@@ -82,25 +82,21 @@
     padding: 50px;
 }
 
-.pdfs {
-    display: block;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-
 .menus {
     display: flex;
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 20px;
+    height: 80vh;
+    width: 80vw;
 }
 
 .food {
-    height: 80vh;
-    width: auto;
-}
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+} 
 
 .footer {
     display: flex;
@@ -110,8 +106,14 @@
     padding-top: 50px;
 }
 
-.phone {
-    display: block;
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 90vh;
+    width: 40vw;
+    padding: 5px;
 }
 
 a {
